@@ -6,7 +6,7 @@ bot = telebot.TeleBot(bot_token)
 iZVgoida = -1002156202800
 
 STATE = {}
-
+ 
 GBOGA = 'gboga'
 
 def chatBypass(message):

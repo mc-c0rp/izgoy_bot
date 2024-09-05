@@ -7,7 +7,7 @@ def btr_createprofile(name, linktojson):
     filepath = os.path.join(BASE_DIR, f"{name}.json")
     
     if os.path.exists(filepath):
-        print("Profile already exists")
+        print("Profile already exists") 
     else:
         try:
             os.makedirs(os.path.dirname(filepath), exist_ok=True)
